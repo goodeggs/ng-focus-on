@@ -14,13 +14,15 @@ app.directive('focusOn', function() {
   };
 });
 
-app.factory('focus', function($rootScope, $timeout) {
-  return function(name) {
-    return $timeout(function() {
-      return $rootScope.$broadcast('focusOn', name);
-    });
-  };
-});
+app.factory('focus', [
+  '$rootScope', '$timeout', (function($rootScope, $timeout) {
+    return function(name) {
+      return $timeout(function() {
+        return $rootScope.$broadcast('focusOn', name);
+      });
+    };
+  })
+]);
 
 },{}]},{},[1])
 ;

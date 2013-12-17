@@ -5,5 +5,8 @@ app.directive 'focusOn', ->
     scope.$on 'focusOn', (e, name) ->
       elem[0].select() if name is attr.focusOn
 
-app.factory 'focus', ($rootScope, $timeout) ->
-  (name) -> $timeout -> $rootScope.$broadcast 'focusOn', name
+app.factory 'focus', ['$rootScope', '$timeout', (($rootScope, $timeout) ->
+  (name) ->
+    $timeout -> # wait until next tick so that all other deferred actions happen first
+      $rootScope.$broadcast 'focusOn', name
+)]
