@@ -18,17 +18,17 @@ function AwesomeCtrl($scope, focus) {
 }
 ```
 
-# Credit
+## Credit
 
 Thanks to this answer from [blesh](http://stackoverflow.com/users/135786/blesh) on StackOverflow for inspiration: http://stackoverflow.com/a/18295416/298584
 
-# Contributing
+## Contributing
 
 ```bash
 npm install
 npm test
 ```
 
-# License
+## License
 
 MIT.
