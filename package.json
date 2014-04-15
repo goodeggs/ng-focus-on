@@ -1,6 +1,6 @@
 {
   "name": "ng-focus-on",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An angular directive for easy programmatic focusing on form elements",
   "main": "lib/index.js",
   "scripts": {
