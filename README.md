@@ -18,6 +18,12 @@ function AwesomeCtrl($scope, focus) {
 }
 ```
 
+## Installing
+
+- **Bower**: `bower install ng-cached-resource`
+- **[npm/browserify](http://browserify.org/)**: `npm install ng-cached-resource`
+- **Download**: https://github.com/goodeggs/ng-focus-on/releases/latest
+
 ## Credit
 
 Thanks to this answer from [blesh](http://stackoverflow.com/users/135786/blesh) on StackOverflow for inspiration: http://stackoverflow.com/a/18295416/298584
