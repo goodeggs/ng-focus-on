@@ -20,8 +20,8 @@ function AwesomeCtrl($scope, focus) {
 
 ## Installing
 
-- **Bower**: `bower install ng-cached-resource`
-- **[npm/browserify](http://browserify.org/)**: `npm install ng-cached-resource`
+- **Bower**: `bower install ng-focus-on`
+- **[npm/browserify](http://browserify.org/)**: `npm install ng-focus-on`
 - **Download**: https://github.com/goodeggs/ng-focus-on/releases/latest
 
 ## Credit
