@@ -10,6 +10,6 @@ describe 'focusOn directive', ->
 
   it 'listens for focusOn events on the root scope and focuses the element', (done) ->
     element = $compile('<input focus-on="test">')($rootScope)
-    element[0].select = ->
+    element[0].focus = ->
       done()
     $rootScope.$broadcast 'focusOn', 'test'

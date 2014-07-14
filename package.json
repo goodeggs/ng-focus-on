@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "coffee-script": "~1.6.3",
-    "karma-mocha": "~0.1.1",
+    "karma-mocha": "0.1.1",
     "karma-chai": "0.0.2",
     "chai": "~1.8.1",
     "uglify-js": "~2.4.7",
