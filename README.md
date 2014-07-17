@@ -10,6 +10,17 @@ An [angularjs](http://angularjs.org/) directive and corresponding factory to mak
 ```
 
 ```javascript
+angular.module('yourModule', [
+  ...
+
+  'focusOn',
+  ...
+]);
+
+
+...
+
+
 function AwesomeCtrl($scope, focus) {
   $scope.focusAwesome = function($event) {
     $event.preventDefault();
